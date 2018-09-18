@@ -1,0 +1,17 @@
+package: rentIntroServer
+import:
+- package: github.com/spf13/viper
+  version: ^1.0.2
+- package: github.com/gin-gonic/gin
+  version: ^1.2.0
+- package: github.com/go-xorm/xorm
+  version: ^0.6.5
+- package: golang.org/x/net
+  repo: git@github.com:golang/net.git
+  vcs: git
+- package: github.com/gomodule/redigo
+  version: ^2.0.0
+- package: github.com/fsnotify/fsnotify
+  version: ^1.4.7
+- package: github.com/spf13/afero
+  version: ^1.1.1

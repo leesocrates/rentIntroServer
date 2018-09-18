@@ -1,0 +1,13 @@
+[general]
+max_connection = 20
+check_interval = 20
+
+[dbservers]
+  # users mysql settings
+  [dbservers.wechatUsers]
+    ip = "127.0.0.1"
+    port = 3306
+    user = "lee"
+    pwd = "123456"
+    database = "users"
+
